@@ -36,7 +36,7 @@ const LoginStep1 = props => {
             onPress: () => {
               setEmail('');
               setPassword('');
-              setShouldShowPassword(false);
+              setShouldShowPassword(false)
             },
           },
         ],
@@ -51,7 +51,7 @@ const LoginStep1 = props => {
     <View style={{flex: 1, padding: 15, backgroundColor: colors.background}}>
       <View>
         <Switch
-          trackColor={{false: 'white', true: 'white'}}
+          trackColor={{false: 'black', true: 'white'}}
           thumbColor={colors.text}
           onValueChange={setTheme}
           value={theme}
